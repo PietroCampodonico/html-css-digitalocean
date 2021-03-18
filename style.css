@@ -17,28 +17,15 @@
 /*===========
     FOOTER
 ============*/
-h1,
-h2 {
-    font-weight: bold;
+
+
+.navbar_custom {
+    background-color: transparent;
+    border: none;
 }
 
-h1 {
-    color: white;
-}
-
-p {
-    color: #aec3ff;
-    font-weight: bolder
-}
-
-.text_white {
-    color: white;
-}
-
-.hero {
-    background-image: url(img/bg-banner-home.jpg);
-    background-position: center;
-    background-size: cover;
+.ciao {
+    background-image: url(img/global.svg);
 }
 
 .img_container {
@@ -46,14 +33,10 @@ p {
 }
 
 section:not(.jumbotron) {
-    padding: 10px 0;
+    padding: 50px 0;
     border: 1px solid black;
 }
 
 .grey {
     background-color: #f3f5f9;
-}
-
-.btn_custom {
-    box-shadow: 0 1px 1px 0 lightgrey;
 }
