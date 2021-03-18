@@ -1,0 +1,39 @@
+/*======================
+    TABLE OF CONTENTS
+======================*/
+
+/*==================
+    GENERAL RULES
+===================*/
+
+/*===========
+    HEADER
+============*/
+
+/*===========
+    MAIN
+============*/
+
+/*===========
+    FOOTER
+============*/
+
+
+.navbar_custom {
+    background-color: transparent;
+    border: none;
+}
+
+.img_container {
+    max-width: 150px;
+
+}
+
+section {
+    height: 200px;
+    border: 1px solid black;
+}
+
+.grey {
+    background-color: #f3f5f9;
+}
