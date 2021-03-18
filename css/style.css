@@ -1,18 +1,15 @@
 /*======================
-    TABLE OF CONTENTS
+TABLE OF CONTENTS
 ======================*/
 
 /*==================
-    GENERAL RULES
+GENERAL RULES
 ===================*/
 
 /*===========
     HEADER
 ============*/
 
-/*===========
-    MAIN
-============*/
 
 /*===========
     FOOTER
@@ -24,9 +21,10 @@ h2 {
 
 h1 {
     color: white;
+    font-size: 55px;
 }
 
-p {
+h4 {
     color: #aec3ff;
     font-weight: bolder
 }
@@ -35,25 +33,45 @@ p {
     color: white;
 }
 
-.hero {
-    background-image: url(img/bg-banner-home.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.img_container {
-    max-width: 150px;
-}
-
-section:not(.jumbotron) {
-    padding: 10px 0;
-    border: 1px solid black;
-}
-
 .grey {
     background-color: #f3f5f9;
 }
 
 .btn_custom {
     box-shadow: 0 1px 1px 0 lightgrey;
+}
+
+section {
+    padding: 50px 0;
+    border: 1px solid black;
+}
+
+.img_container {
+    max-width: 150px;
+}
+
+
+/*===========
+    MAIN
+============*/
+
+/* Hero */
+
+.hero {
+    background-image: url(img/bg-banner-home.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.hero .form-group > * {
+    margin: 7px 0;
+}
+
+.hero small > a,
+.hero .panel h2:last-of-type {
+    color: #0b70ff
+}
+
+.panel_custom {
+    margin: 0;
 }
