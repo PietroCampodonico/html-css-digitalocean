@@ -21,8 +21,12 @@ img {
     width: 100%;
 }
 
-.m_top{
+.m_top_40{
     margin-top: 40px;
+}
+
+.m_top_20 {
+    margin-top: 20px;
 }
 
 /* Typography */
@@ -140,16 +144,15 @@ h4 {
    MEDIA-QUERIES
 =================*/
 
-@media screen and (min-widht: 768px) {
-    .box {
-        width: calc(50% - 5px);
-    }
-}
 
 @media screen and (max-width: 767px) {
 
     .img_container {
         width: calc(50% - 5px)
+    }
+
+    .m_top_20 {
+        margin-top: 0;
     }
 }
 
