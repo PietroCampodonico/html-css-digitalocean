@@ -47,8 +47,26 @@ section {
 }
 
 .img_container {
-    max-width: 150px;
+    width: 150px;
+    display: inline-block;
+    padding-right: 15px;
 }
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.no-gutters {
+    padding: 0;
+}
+
+.no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
 
 
 /*===========
@@ -80,3 +98,11 @@ section {
 
 /* .2 Customers */
 
+.customers h4 {
+
+    color: #7f8aa3;
+}
+
+img {
+    display: inline-block;
+}
