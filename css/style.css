@@ -19,6 +19,10 @@ h2 {
     font-weight: bold;
 }
 
+h2 {
+   color: #0f2756;
+}
+
 h1 {
     color: white;
     font-size: 50px;
@@ -37,9 +41,6 @@ h4 {
     background-color: #f3f5f9;
 }
 
-.btn_custom {
-    box-shadow: 0 1px 1px 0 lightgrey;
-}
 
 section {
     padding: 50px 0;
@@ -84,6 +85,11 @@ img {
 
 .panel_custom {
     margin: 0;
+}
+
+
+.btn_custom {
+    box-shadow: 0 1px 1px 0 lightgrey;
 }
 
 /* .2 Customers */
