@@ -37,7 +37,7 @@ h2 {
 }
 
 h2,
-.deploy h4 {
+.deploy .row h4 {
    color: #0f2756;
 }
 
@@ -65,6 +65,21 @@ h4 {
 
 .font_weight_bolder {
     font-weight: bolder;
+}
+
+
+.glyphicon-chevron-left,
+.glyphicon-chevron-right {
+    font-size: 30px;
+}
+
+.glyphicon-chevron-right {
+    color: #0f2756;
+
+}
+
+.glyphicon-chevron-left {
+    color: #7f8aa3;
 }
 
 
@@ -132,6 +147,16 @@ h4 {
 
 .img_box {
     width: 50px;
+}
+
+/*  Carosel */
+
+.box {
+    /* max-width: 50%; */
+}
+
+.carosel [class*="col-"]{
+    vertical-align: middle;
 }
 
 
