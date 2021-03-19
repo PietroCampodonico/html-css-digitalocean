@@ -47,25 +47,15 @@ section {
 }
 
 .img_container {
-    width: 150px;
+    width: calc(100% / 6 - 5px);
     display: inline-block;
     padding-right: 15px;
 }
 
 img {
-    height: 100%;
     width: 100%;
-    object-fit: cover;
 }
 
-.no-gutters {
-    padding: 0;
-}
-
-.no-gutters > [class*="col-"] {
-    padding-right: 0;
-    padding-left: 0;
-}
 
 
 
@@ -105,4 +95,15 @@ img {
 
 img {
     display: inline-block;
+}
+
+/*================
+   MEDIA-QUERIES
+=================*/
+
+@media screen and (max-width: 767px) {
+
+    .img_container {
+        width: calc(50% - 5px)
+    }
 }
