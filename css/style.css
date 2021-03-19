@@ -1,25 +1,39 @@
 /*======================
-TABLE OF CONTENTS
+    TABLE OF CONTENTS
 ======================*/
 
 /*==================
-GENERAL RULES
+    GENERAL RULES
 ===================*/
 
-/*===========
-    HEADER
-============*/
+section {
+    padding: 50px 0;
+    border: 1px solid black;
+}
 
+.img_container {
+    width: calc(100% / 6 - 5px);
+    display: inline-block;
+    padding-right: 15px;
+}
 
-/*===========
-    FOOTER
-============*/
+img {
+    width: 100%;
+}
+
+.m_top{
+    margin-top: 40px;
+}
+
+/* Typography */
+
 h1,
 h2 {
     font-weight: bold;
 }
 
-h2 {
+h2,
+.deploy h4 {
    color: #0f2756;
 }
 
@@ -37,28 +51,22 @@ h4 {
     color: white;
 }
 
+.text_grey {
+    color: #7f8aa3;
+}
+
 .bg_grey {
     background-color: #f3f5f9;
 }
 
-
-section {
-    padding: 50px 0;
-    border: 1px solid black;
-}
-
-.img_container {
-    width: calc(100% / 6 - 5px);
-    display: inline-block;
-    padding-right: 15px;
-}
-
-img {
-    width: 100%;
+.font_weight_bolder {
+    font-weight: bolder;
 }
 
 
-
+/*===========
+    HEADER
+============*/
 
 /*===========
    .1 MAIN
@@ -95,17 +103,48 @@ img {
 /* .2 Customers */
 
 .customers h4 {
-
     color: #7f8aa3;
 }
 
-img {
-    display: inline-block;
+/* Deploy */
+
+.deploy .list {
+    border-left: 2px solid lightgray;
+    padding-left: 5px;
 }
+
+.deploy li {
+    padding: 10px;
+}
+
+.deploy a {
+    font-size: 20px;
+}
+
+.deploy a, 
+.deploy h5 {
+    color:#75809a;
+}
+
+.img_box {
+    width: 50px;
+}
+
+
+/*===========
+    FOOTER
+============*/
+
 
 /*================
    MEDIA-QUERIES
 =================*/
+
+@media screen and (min-widht: 768px) {
+    .box {
+        width: calc(50% - 5px);
+    }
+}
 
 @media screen and (max-width: 767px) {
 
@@ -113,3 +152,5 @@ img {
         width: calc(50% - 5px)
     }
 }
+
+
