@@ -6,7 +6,8 @@
     GENERAL RULES
 ===================*/
 
-section {
+section,
+footer {
     padding: 50px 0;
     border: 1px solid black;
 }
@@ -288,6 +289,28 @@ h4 {
     FOOTER
 ============*/
 
+footer {
+    background-color: #031c4e;
+}
+
+footer .row {
+    display: inline-block;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    font-weight: bold;
+}
+footer li:first-of-type {
+    font-size: larger;
+}
+
+footer a {
+    color: #7f8aa3;
+}
 
 /*================
    MEDIA-QUERIES
@@ -314,7 +337,11 @@ h4 {
     .carosel .box {
         margin: 150px 0
     }
-
 }
 
+@media screen and (max-width: 993px) {
+    footer ul {
+        margin: 20px 0;
+    }
+}
 
