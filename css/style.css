@@ -29,6 +29,10 @@ img {
     margin-top: 20px;
 }
 
+.pad_bottom_40 {
+    padding-bottom: 20px;
+}
+
 /* Typography */
 
 h1,
@@ -87,6 +91,13 @@ h4 {
     color: #7f8aa3;
 }
 
+.btn_custom {
+    color: #0b70ff;
+    font-weight: bold;
+    padding: 15px 20px;
+    background-color: white;
+    border-radius: 4px;
+}
 
 /*===========
     HEADER
@@ -240,7 +251,7 @@ h4 {
 /* Regions */
 
 .regions {
-    background-image: linear-gradient(#0149c6, #001e99);
+    background-image: linear-gradient(#0042bb, #00209b)
 }
 
 .regions a {
@@ -265,7 +276,11 @@ h4 {
     padding-left: 10px;
 }
 
-/* carosel2 */
+/* Getstarted */
+
+.getstarted {
+    background-image: linear-gradient(#0042bb, #00209b);
+}
 
 
 
