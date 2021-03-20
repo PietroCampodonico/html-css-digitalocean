@@ -178,9 +178,17 @@ h4 {
 .carosel .box {
     margin: 75px 0;
 }
-/* .arrow {
-    display: inline-block;
-} */
+
+/* Features */
+
+.features h4 {
+    color: #0f2756
+}
+
+.features h5 {
+    color:#75809a;
+    font-weight: bold
+}
 /*===========
     FOOTER
 ============*/
