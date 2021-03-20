@@ -63,6 +63,10 @@ h4 {
     background-color: #f3f5f9;
 }
 
+.bg_blue {
+    background-color: #0b70ff;
+}
+
 .font_weight_bolder {
     font-weight: bolder;
 }
@@ -75,11 +79,13 @@ h4 {
 
 .glyphicon-chevron-right {
     color: #0f2756;
+    text-align: left;
 
 }
 
 .glyphicon-chevron-left {
     color: #7f8aa3;
+    text-align: right;
 }
 
 
@@ -151,15 +157,30 @@ h4 {
 
 /*  Carosel */
 
-.box {
-    /* max-width: 50%; */
+.carosel img {
+    max-width: 500px;
 }
 
-.carosel [class*="col-"]{
-    vertical-align: middle;
+.carosel span {
+    position: relative;
+    top: 50%;
 }
 
+.carosel .bullet {
+    display: inline-block;
+    padding-right: 5px;
+    height: 15px;
+    width: 15px;
+    border: 1px solid #0b70ff;
+    border-radius: 50%;
+}
 
+.carosel .box {
+    margin: 75px 0;
+}
+/* .arrow {
+    display: inline-block;
+} */
 /*===========
     FOOTER
 ============*/
@@ -178,6 +199,10 @@ h4 {
 
     .m_top_20 {
         margin-top: 0;
+    }
+
+    .carosel .box {
+        margin: 150px 0
     }
 }
 
