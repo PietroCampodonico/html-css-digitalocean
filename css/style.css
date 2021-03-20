@@ -97,7 +97,7 @@ h4 {
    .1 MAIN
 ============*/
 
-/* Hero */
+/* customers */
 
 .hero {
     background-image: url(img/bg-banner-home.jpg);
@@ -129,6 +129,11 @@ h4 {
 
 .customers h4 {
     color: #7f8aa3;
+}
+
+.customers span{
+    vertical-align: middle;
+    padding-left: 10px;
 }
 
 /* Deploy */
@@ -189,6 +194,12 @@ h4 {
     color:#75809a;
     font-weight: bold
 }
+
+.features span{
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
 /*===========
     FOOTER
 ============*/
@@ -212,6 +223,7 @@ h4 {
     .carosel .box {
         margin: 150px 0
     }
+
 }
 
 
