@@ -85,7 +85,6 @@ h4 {
 
 .glyphicon-chevron-left {
     color: #7f8aa3;
-    text-align: right;
 }
 
 
@@ -162,13 +161,55 @@ h4 {
 
 /*  Carosel */
 
-.carosel img {
+.carosel img,
+.carosel .slide {
     max-width: 500px;
 }
 
-.carosel span {
-    position: relative;
-    top: 50%;
+.carosel .slide {
+    display: inline-block;
+    padding: 50px;
+    background-color: white;
+}
+
+.carosel .box {
+    margin: 75px 0;
+}
+
+.carosel .box_second {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.carosel h5 {
+    color: #0f2756;
+}
+
+.carosel h5:first-of-type {
+    font-weight: bold;
+}
+
+.carosel .slide a {
+    color: #0b70ff;
+    font-weight: bolder;
+    vertical-align: middle;
+}
+
+.slide_title {
+    max-width: 200px;
+}
+
+.tobenamed {
+    padding-top: 20px;
+}
+
+.carosel .slide span {
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.carosel .box span {
+    
 }
 
 .carosel .bullet {
@@ -178,10 +219,6 @@ h4 {
     width: 15px;
     border: 1px solid #0b70ff;
     border-radius: 50%;
-}
-
-.carosel .box {
-    margin: 75px 0;
 }
 
 /* Features */
@@ -222,12 +259,15 @@ h4 {
     text-align: right;
 }
 
-
 .regions span{
     line-height: 15px;
     vertical-align: middle;
     padding-left: 10px;
 }
+
+/* carosel2 */
+
+
 
 /*===========
     FOOTER
