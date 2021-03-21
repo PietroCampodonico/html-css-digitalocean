@@ -329,14 +329,15 @@ footer .social span {
 
 /* Squalo */
 
-#baloon {
+.baloon {
     max-width: 375px;
     background-color: white;
     padding: 15px;
     border-radius: 5px;
+    position: relative;
 }
 
-#baloon h4 {
+.baloon h4 {
     margin: 0;
     font-weight: lighter;
 }
@@ -345,11 +346,11 @@ footer .social span {
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 25px 0 25px 50px;
-    border-color: transparent transparent transparent green;
+    border-width: 20px 0 20px 20px;
+    border-color: transparent transparent transparent #ffffff;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 70%;
+    right: -20px;
     transform: translate(-50%, -50%);
 }
 
