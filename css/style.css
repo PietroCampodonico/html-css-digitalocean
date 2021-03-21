@@ -34,6 +34,11 @@ img {
     padding-bottom: 20px;
 }
 
+.img_box {
+    width: 50px;
+}
+
+
 /* Typography */
 
 h1,
@@ -62,6 +67,10 @@ h4 {
 
 .text_grey {
     color: #7f8aa3;
+}
+
+.text_blue {
+    color: #031c4e
 }
 
 .bg_grey {
@@ -167,9 +176,6 @@ h4 {
     color:#75809a;
 }
 
-.img_box {
-    width: 50px;
-}
 
 /*  Carosel */
 
@@ -299,19 +305,68 @@ footer .row {
 
 footer ul {
     list-style: none;
+    padding: 0;
 }
 
 footer li {
     font-weight: bold;
+    padding: 5px;
 }
 footer li:first-of-type {
     font-size: larger;
 }
 
 footer a {
-    color: #7f8aa3;
+    color: #7f8aa3;    
 }
 
+footer .social span {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+/* Squalo */
+
+#baloon {
+    max-width: 375px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#baloon h4 {
+    margin: 0;
+    font-weight: lighter;
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 0 25px 50px;
+    border-color: transparent transparent transparent green;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.squalo > .img_box {
+    height: 65px;
+    width: 65px;
+    border-radius: 5px;
+    padding-top: 5px
+}
+
+.squalo .unread {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 50%;
+    background-color: red;
+    border: 4px solid white;
+}
 /*================
    MEDIA-QUERIES
 =================*/
@@ -321,6 +376,10 @@ footer a {
         width: calc(50% - 20px);
         margin-right: 20px;
         padding-right: 10px;
+    }
+
+    .squalo > * {
+        float: right;
     }
 }
 
