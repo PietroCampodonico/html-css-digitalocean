@@ -9,7 +9,10 @@
 section,
 footer {
     padding: 50px 0;
-    border: 1px solid black;
+}
+
+.container {
+    position: relative;
 }
 
 .img_container {
@@ -38,7 +41,10 @@ img {
     width: 50px;
 }
 
-
+ul {
+    list-style: none;
+    margin-bottom: 0;
+}
 /* Typography */
 
 h1,
@@ -112,6 +118,44 @@ h4 {
 /*===========
     HEADER
 ============*/
+
+nav  * {
+    vertical-align: middle;
+    display: inline-block;
+
+}
+
+.brand {
+    max-width: 175px;
+}
+
+nav a {
+    margin: 15px 0;
+    padding: 5px 0 5px 15px;
+    color: #0f2756;
+}
+
+
+nav ul:last-of-type,
+.hamburger {
+    position: absolute;
+    right: 15px;
+    margin-top: 5px;
+}
+
+nav .btn_custom {
+    padding: 5px;
+    font-weight: lighter;
+    border: 1px solid #0b70ff;
+    margin-left: 10px
+}
+
+.hamburger {
+    font-size: 25px;
+    color: #0b70ff;
+    margin-top: 25px;
+    display: none;
+}
 
 /*===========
    .1 MAIN
@@ -329,6 +373,13 @@ footer .social span {
 
 /* Squalo */
 
+.squalo {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 30px 50px;
+}
+
 .baloon {
     max-width: 375px;
     background-color: white;
@@ -337,9 +388,8 @@ footer .social span {
     position: relative;
 }
 
-.baloon h4 {
+.baloon p {
     margin: 0;
-    font-weight: lighter;
 }
 
 #triangle {
@@ -360,6 +410,7 @@ footer .social span {
     border-radius: 5px;
     padding-top: 5px;
     position: relative;
+    margin-bottom: 10px;
 }
 
 .squalo .unread {
@@ -375,6 +426,9 @@ footer .social span {
 /*================
    MEDIA-QUERIES
 =================*/
+
+/* MD */
+
 @media screen and (min-width: 992px) {
     .table_container {
         float: left;
@@ -385,8 +439,34 @@ footer .social span {
 
     .squalo > * {
         float: right;
+        margin-left: 15px;
     }
 }
+
+
+/* XS,SM */
+
+@media screen and (max-width: 991px) {
+    footer ul {
+        margin: 20px 0;
+    }
+
+    .squalo {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav .hamburger {
+        display: block;
+    }
+}
+
+/* XS */
 
 @media screen and (max-width: 767px) {
 
@@ -402,10 +482,3 @@ footer .social span {
         margin: 150px 0
     }
 }
-
-@media screen and (max-width: 993px) {
-    footer ul {
-        margin: 20px 0;
-    }
-}
-
