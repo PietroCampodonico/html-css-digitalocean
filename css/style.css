@@ -110,9 +110,10 @@ h4 {
 .btn_custom {
     color: #0b70ff;
     font-weight: bold;
-    padding: 15px 20px;
+    padding: 6px 20px;
     background-color: white;
     border-radius: 4px;
+    position: relative;
 }
 
 /*===========
@@ -171,6 +172,18 @@ nav .btn_custom {
 
 .hero .form-group > * {
     margin: 7px 0;
+}
+
+.form-control_custom_height {
+    height: 45px;
+}
+
+.g_icon {
+    display: inline-block;
+    width: 20px;
+    position: absolute;
+    left: 6px;
+
 }
 
 .text_ocean_color,
